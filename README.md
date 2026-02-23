@@ -15,18 +15,19 @@ We have two key files in the `code` folder:
 Inputs to `aftermath.ipynb` should be placed in the `data` folder: 
 - Load model responses
   - `pred_subset.csv`: responses from evaluated VLMs
-  - `answer_mapping.json`: a mapping to determine whether the student image contains any errors
+  - `answer_mapping.json`: outputs form an LM remapping teachers' answers around whether the student image contains any errors
   - `questions_to_categories.json`: question categories, e.g. image creation and medium, correctness & errors
 - Redrawing experiment
-  - `sampled_images_per_problem.json`
-  - `exp1_redrawn.csv`
+  - `sampled_images_per_problem.json`: the filenames of images we redrew
+  - `exp1_redrawn.csv`: model responses on redrawn images
+  - 336 redrawn images, all `.png` 
 - Textual support experiments
-  - `exp2_nl.csv`
-  - `exp2_testtime.csv`
+  - `exp2_nl.csv`: model responses when given teachers' descriptions
+  - `exp2_testtime.csv`: model responses given their own descriptions
 - Answer defaults analysis
-  - `answer_comparisons.json`
+  - `answer_comparisons.json`: ratings of answer pairs compared against each other
 - Open-ended vs. binary error & correctness analysis
-  - `binary_correctness.json`
-  - `question_binary.json`
+  - `question_binary.json`: outputs from an LM labeling whether a question is "binary" or "other" 
+  - `binary_correctness.json`: outputs from an LM labeling whether student is correct/incorrect on binary questions
 
 Guidance on how to download data is forthcoming. In the meantime, contact `lucyli@cs.wisc.edu` with questions. 
