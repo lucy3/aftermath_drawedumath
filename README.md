@@ -12,6 +12,8 @@ We have two key files in the `code` folder:
 
 ### Data
 
+Data can be found at: https://huggingface.co/collections/lucy3/aftermath-of-drawedumath
+
 Inputs to `aftermath.ipynb` should be placed in the `data` folder: 
 - Load model responses
   - `predictions.csv`: responses from evaluated VLMs
@@ -30,4 +32,4 @@ Inputs to `aftermath.ipynb` should be placed in the `data` folder:
   - `question_binary.json`: outputs from an LM labeling whether a question is "binary" or "other" 
   - `binary_correctness.json`: outputs from an LM labeling whether student is correct/incorrect on binary questions
 
-Guidance on how to download data is forthcoming. In the meantime, contact `lucyli@cs.wisc.edu` with questions. 
+Contact `lucyli@cs.wisc.edu` with questions. 
