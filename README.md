@@ -14,7 +14,7 @@ We have two key files in the `code` folder:
 
 Inputs to `aftermath.ipynb` should be placed in the `data` folder: 
 - Load model responses
-  - `pred_subset.csv`: responses from evaluated VLMs
+  - `predictions.csv`: responses from evaluated VLMs
   - `answer_mapping.json`: outputs form an LM remapping teachers' answers around whether the student image contains any errors
   - `questions_to_categories.json`: question categories, e.g. image creation and medium, correctness & errors
 - Redrawing experiment
