@@ -17,7 +17,7 @@ Data can be found at: https://huggingface.co/collections/lucy3/aftermath-of-draw
 Inputs to `aftermath.ipynb` should be placed in the `data` folder: 
 - Load model responses
   - `predictions.csv`: responses from evaluated VLMs
-  - `answer_mapping.json`: outputs form an LM remapping teachers' answers around whether the student image contains any errors
+  - `answer_mapping.json`: outputs from an LM remapping teachers' answers around whether the student image contains any errors
   - `questions_to_categories.json`: question categories, e.g. image creation and medium, correctness & errors
 - Redrawing experiment
   - `sampled_images_per_problem.json`: the filenames of images we redrew
