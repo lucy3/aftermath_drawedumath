@@ -2,6 +2,8 @@
 
 This repository contains scripts and notebooks for recreating the results in a follow-up error analysis of 11 VLMs on DrawEduMath. 
 
+Paper: [https://arxiv.org/abs/2603.00925](https://arxiv.org/abs/2603.00925)
+
 Scripts used to update the DrawEduMath leaderboard can be found here: [https://github.com/allenai/DrawEduMath](https://github.com/allenai/DrawEduMath). 
 
 ### Code 
